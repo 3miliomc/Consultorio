@@ -3,14 +3,14 @@
     "description": "MyHealth Office365",
     "authors": [ "Microsoft" ],
 
-    "dependencies": {
-        "System.Net.Http": "4.0.1-beta-*",
-        "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.5.208051316-alpha",
-        "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-        "Newtonsoft.Json": "7.0.1",
-        "MyHealth.Model": "",
-        "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final"
-    },
+  "dependencies": {
+    "System.Net.Http": "4.0.1-beta-*",
+    "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.5.208051316-alpha",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+    "Newtonsoft.Json": "7.0.1",
+    "MyHealth.Model": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final"
+  },
 
     "frameworks": {
         "dnx451": { },
